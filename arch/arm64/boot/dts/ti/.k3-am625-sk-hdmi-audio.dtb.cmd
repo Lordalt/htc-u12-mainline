@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/boot/dts/ti/k3-am625-sk-hdmi-audio.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/ti/k3-am625-sk-hdmi-audio.dtb -i arch/arm64/boot/dts/ti/k3-am625-sk.dtb arch/arm64/boot/dts/ti/k3-am62x-sk-hdmi-audio.dtbo

@@ -1,0 +1,1 @@
+savedcmd_drivers/ata/ahci_dwc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/ata/ahci_dwc.ko drivers/ata/ahci_dwc.o drivers/ata/ahci_dwc.mod.o

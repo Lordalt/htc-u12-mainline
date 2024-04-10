@@ -1,0 +1,6 @@
+drivers/input/misc/nxp-bbnsm-pwrkey.o
+drivers/input/misc/pm8xxx-vibrator.o
+drivers/input/misc/pwm-beeper.o
+drivers/input/misc/pwm-vibra.o
+drivers/input/misc/rk805-pwrkey.o
+drivers/input/misc/tps65219-pwrbutton.o

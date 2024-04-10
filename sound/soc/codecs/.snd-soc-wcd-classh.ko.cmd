@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-wcd-classh.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-wcd-classh.ko sound/soc/codecs/snd-soc-wcd-classh.o sound/soc/codecs/snd-soc-wcd-classh.mod.o

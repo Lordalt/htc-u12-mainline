@@ -1,0 +1,3 @@
+drivers/mailbox/omap-mailbox.o
+drivers/mailbox/bcm-flexrm-mailbox.o
+drivers/mailbox/mtk-cmdq-mailbox.o

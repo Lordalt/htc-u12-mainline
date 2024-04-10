@@ -1,0 +1,5 @@
+sm4450-qrd.o: arch/arm64/boot/dts/qcom/sm4450-qrd.dts \
+ arch/arm64/boot/dts/qcom/sm4450.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h

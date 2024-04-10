@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/common/modules.order := {   echo drivers/media/platform/mediatek/vcodec/common/mtk-vcodec-common.o;   echo drivers/media/platform/mediatek/vcodec/common/mtk-vcodec-dbgfs.o; :; } > drivers/media/platform/mediatek/vcodec/common/modules.order

@@ -1,0 +1,1 @@
+savedcmd_net/dsa/tag_ocelot_8021q.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/dsa/tag_ocelot_8021q.ko net/dsa/tag_ocelot_8021q.o net/dsa/tag_ocelot_8021q.mod.o

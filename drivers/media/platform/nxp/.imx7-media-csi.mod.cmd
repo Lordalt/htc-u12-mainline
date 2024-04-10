@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/nxp/imx7-media-csi.mod := printf '%s\n'   imx7-media-csi.o | awk '!x[$$0]++ { print("drivers/media/platform/nxp/"$$0) }' > drivers/media/platform/nxp/imx7-media-csi.mod

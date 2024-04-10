@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/stmicro/stmmac/dwmac-tegra.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/stmicro/stmmac/dwmac-tegra.ko drivers/net/ethernet/stmicro/stmmac/dwmac-tegra.o drivers/net/ethernet/stmicro/stmmac/dwmac-tegra.mod.o

@@ -1,0 +1,2 @@
+drivers/media/platform/mediatek/vcodec/decoder/mtk-vcodec-dec.o
+drivers/media/platform/mediatek/vcodec/decoder/mtk-vcodec-dec-hw.o

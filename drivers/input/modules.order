@@ -1,0 +1,16 @@
+drivers/input/keyboard/adc-keys.o
+drivers/input/keyboard/gpio_keys_polled.o
+drivers/input/keyboard/imx_sc_key.o
+drivers/input/keyboard/mtk-pmic-keys.o
+drivers/input/keyboard/snvs_pwrkey.o
+drivers/input/mouse/elan_i2c.o
+drivers/input/touchscreen/atmel_mxt_ts.o
+drivers/input/touchscreen/edt-ft5x06.o
+drivers/input/touchscreen/elants_i2c.o
+drivers/input/touchscreen/goodix_ts.o
+drivers/input/misc/nxp-bbnsm-pwrkey.o
+drivers/input/misc/pm8xxx-vibrator.o
+drivers/input/misc/pwm-beeper.o
+drivers/input/misc/pwm-vibra.o
+drivers/input/misc/rk805-pwrkey.o
+drivers/input/misc/tps65219-pwrbutton.o

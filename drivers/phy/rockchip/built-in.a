@@ -1,0 +1,10 @@
+!<thin>
+//                                              96        `
+phy-rockchip-emmc.o/
+phy-rockchip-inno-usb2.o/
+phy-rockchip-snps-pcie3.o/
+phy-rockchip-typec.o/
+/0              0           0     0     644     51432     `
+/21             0           0     0     644     140816    `
+/47             0           0     0     644     55624     `
+/74             0           0     0     644     114104    `

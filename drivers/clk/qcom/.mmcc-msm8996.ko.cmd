@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/qcom/mmcc-msm8996.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/mmcc-msm8996.ko drivers/clk/qcom/mmcc-msm8996.o drivers/clk/qcom/mmcc-msm8996.mod.o

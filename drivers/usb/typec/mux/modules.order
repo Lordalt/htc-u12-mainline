@@ -1,0 +1,3 @@
+drivers/usb/typec/mux/fsa4480.o
+drivers/usb/typec/mux/gpio-sbu-mux.o
+drivers/usb/typec/mux/nb7vpq904m.o

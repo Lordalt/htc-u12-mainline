@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/adv7511/adv7511.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/bridge/adv7511/adv7511.o @drivers/gpu/drm/bridge/adv7511/adv7511.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/renesas/rcar-du/rcar_mipi_dsi.mod := printf '%s\n'   rcar_mipi_dsi.o | awk '!x[$$0]++ { print("drivers/gpu/drm/renesas/rcar-du/"$$0) }' > drivers/gpu/drm/renesas/rcar-du/rcar_mipi_dsi.mod

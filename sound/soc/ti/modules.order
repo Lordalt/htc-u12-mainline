@@ -1,0 +1,5 @@
+sound/soc/ti/snd-soc-ti-edma.o
+sound/soc/ti/snd-soc-ti-sdma.o
+sound/soc/ti/snd-soc-ti-udma.o
+sound/soc/ti/snd-soc-davinci-mcasp.o
+sound/soc/ti/snd-soc-j721e-evm.o

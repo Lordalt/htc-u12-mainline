@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/apple/built-in.a := rm -f drivers/soc/apple/built-in.a;  printf "drivers/soc/apple/%s " rtkit.o rtkit-crashlog.o sart.o | xargs aarch64-linux-gnu-ar cDPrST drivers/soc/apple/built-in.a

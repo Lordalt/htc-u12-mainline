@@ -1,0 +1,86 @@
+# 0 "arch/arm64/boot/dts/freescale/imx8mp-venice-gw74xx-imx219.dtso"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/freescale/imx8mp-venice-gw74xx-imx219.dtso"
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 7 "arch/arm64/boot/dts/freescale/imx8mp-venice-gw74xx-imx219.dtso" 2
+
+# 1 "arch/arm64/boot/dts/freescale/imx8mp-pinfunc.h" 1
+# 9 "arch/arm64/boot/dts/freescale/imx8mp-venice-gw74xx-imx219.dtso" 2
+
+/dts-v1/;
+/plugin/;
+
+&{/} {
+ compatible = "gw,imx8mp-gw74xx", "fsl,imx8mp";
+
+ reg_cam: regulator-cam {
+  pinctrl-names = "default";
+  pinctrl-0 = <&pinctrl_reg_cam>;
+  compatible = "regulator-fixed";
+  regulator-name = "reg_cam";
+  gpio = <&gpio1 4 0>;
+  enable-active-high;
+  regulator-min-microvolt = <1800000>;
+  regulator-max-microvolt = <1800000>;
+ };
+
+ cam24m: cam24m {
+  compatible = "fixed-clock";
+  #clock-cells = <0>;
+  clock-frequency = <24000000>;
+  clock-output-names = "cam24m";
+ };
+};
+
+&i2c4 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+
+ imx219: sensor@10 {
+  compatible = "sony,imx219";
+  reg = <0x10>;
+  clocks = <&cam24m>;
+  VDIG-supply = <&reg_cam>;
+
+  port {
+
+   imx219_to_mipi_csi2: endpoint {
+    remote-endpoint = <&mipi_csi_0_in>;
+    clock-lanes = <0>;
+    data-lanes = <1 2>;
+    link-frequencies = /bits/ 64 <456000000>;
+   };
+  };
+ };
+};
+
+&isi_0 {
+ status = "okay";
+};
+
+&mipi_csi_0 {
+ status = "okay";
+
+ ports {
+  port@0 {
+   mipi_csi_0_in: endpoint {
+    remote-endpoint = <&imx219_to_mipi_csi2>;
+    data-lanes = <1 2>;
+   };
+  };
+ };
+};
+
+&iomuxc {
+ pinctrl_reg_cam: regcamgrp {
+  fsl,pins = <
+   0x024 0x284 0x000 0x0 0x0 0x41
+  >;
+ };
+};

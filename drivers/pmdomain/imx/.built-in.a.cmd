@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/imx/built-in.a := rm -f drivers/pmdomain/imx/built-in.a;  printf "drivers/pmdomain/imx/%s " gpcv2.o scu-pd.o imx8m-blk-ctrl.o imx8mp-blk-ctrl.o imx93-pd.o imx93-blk-ctrl.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/imx/built-in.a

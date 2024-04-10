@@ -1,0 +1,1 @@
+savedcmd_drivers/media/v4l2-core/v4l2-cci.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/v4l2-core/v4l2-cci.ko drivers/media/v4l2-core/v4l2-cci.o drivers/media/v4l2-core/v4l2-cci.mod.o

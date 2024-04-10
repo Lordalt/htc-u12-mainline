@@ -1,0 +1,1 @@
+savedcmd_drivers/ufs/host/modules.order := {   echo drivers/ufs/host/cdns-pltfrm.o;   echo drivers/ufs/host/ufs-qcom.o;   echo drivers/ufs/host/ufs-renesas.o;   echo drivers/ufs/host/ti-j721e-ufs.o; :; } > drivers/ufs/host/modules.order

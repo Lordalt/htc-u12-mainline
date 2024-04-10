@@ -1,0 +1,9 @@
+!<thin>
+//                                              48        `
+qcom_scm.o/
+qcom_scm-smc.o/
+qcom_scm-legacy.o/
+
+/0              0           0     0     644     107224    `
+/12             0           0     0     644     36280     `
+/28             0           0     0     644     34288     `

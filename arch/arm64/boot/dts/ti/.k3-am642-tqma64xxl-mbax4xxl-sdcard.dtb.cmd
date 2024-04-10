@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/boot/dts/ti/k3-am642-tqma64xxl-mbax4xxl-sdcard.dtb := ./scripts/dtc/fdtoverlay -o arch/arm64/boot/dts/ti/k3-am642-tqma64xxl-mbax4xxl-sdcard.dtb -i arch/arm64/boot/dts/ti/k3-am642-tqma64xxl-mbax4xxl.dtb arch/arm64/boot/dts/ti/k3-am64-tqma64xxl-mbax4xxl-sdcard.dtbo

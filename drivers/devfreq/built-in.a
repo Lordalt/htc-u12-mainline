@@ -1,0 +1,11 @@
+!<thin>
+//                                              72        `
+devfreq.o/
+governor_simpleondemand.o/
+governor_userspace.o/
+imx-bus.o/
+
+/0              0           0     0     644     148920    `
+/11             0           0     0     644     24928     `
+/38             0           0     0     644     28880     `
+/60             0           0     0     644     32736     `

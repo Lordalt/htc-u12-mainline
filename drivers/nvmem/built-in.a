@@ -1,0 +1,27 @@
+!<thin>
+//                                              170       `
+core.o/
+apple-efuses.o/
+bcm-ocotp.o/
+imx-ocotp.o/
+imx-ocotp-scu.o/
+mtk-efuse.o/
+qfprom.o/
+rockchip-efuse.o/
+rockchip-otp.o/
+snvs_lpgpr.o/
+sunxi_sid.o/
+uniphier-efuse.o/
+
+/0              0           0     0     644     140552    `
+/8              0           0     0     644     27168     `
+/24             0           0     0     644     50080     `
+/37             0           0     0     644     60208     `
+/50             0           0     0     644     35672     `
+/67             0           0     0     644     30888     `
+/80             0           0     0     644     69328     `
+/90             0           0     0     644     50824     `
+/108            0           0     0     644     49048     `
+/124            0           0     0     644     28704     `
+/138            0           0     0     644     39320     `
+/151            0           0     0     644     27504     `

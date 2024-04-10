@@ -1,0 +1,77 @@
+!<thin>
+//                                              660       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+irq_helpers.o/
+of_regulator.o/
+fixed.o/
+cros-ec-regulator.o/
+axp20x-regulator.o/
+bd718x7-regulator.o/
+bd9571mwv-regulator.o/
+fan53555.o/
+gpio-regulator.o/
+hi6421v530-regulator.o/
+hi655x-regulator.o/
+max77620-regulator.o/
+max8973-regulator.o/
+mp8859.o/
+mt6357-regulator.o/
+mt6358-regulator.o/
+mt6359-regulator.o/
+mt6360-regulator.o/
+mt6397-regulator.o/
+qcom-rpmh-regulator.o/
+qcom_smd-regulator.o/
+qcom_spmi-regulator.o/
+pca9450-regulator.o/
+pf8x00-regulator.o/
+pfuze100-regulator.o/
+pwm-regulator.o/
+raa215300.o/
+rk808-regulator.o/
+rohm-regulator.o/
+s2mps11.o/
+tps65219-regulator.o/
+uniphier-regulator.o/
+
+/0              0           0     0     644     368432    `
+/8              0           0     0     644     34296     `
+/17             0           0     0     644     10016     `
+/33             0           0     0     644     64736     `
+/44             0           0     0     644     62128     `
+/54             0           0     0     644     49624     `
+/69             0           0     0     644     69032     `
+/85             0           0     0     644     52944     `
+/94             0           0     0     644     46048     `
+/115            0           0     0     644     127584    `
+/135            0           0     0     644     104136    `
+/156            0           0     0     644     55624     `
+/179            0           0     0     644     58152     `
+/191            0           0     0     644     52896     `
+/209            0           0     0     644     42984     `
+/233            0           0     0     644     44912     `
+/253            0           0     0     644     85536     `
+/275            0           0     0     644     67768     `
+/296            0           0     0     644     40120     `
+/306            0           0     0     644     59560     `
+/326            0           0     0     644     93272     `
+/346            0           0     0     644     92696     `
+/366            0           0     0     644     56272     `
+/386            0           0     0     644     59000     `
+/406            0           0     0     644     135816    `
+/429            0           0     0     644     137000    `
+/451            0           0     0     644     172960    `
+/474            0           0     0     644     68824     `
+/495            0           0     0     644     61736     `
+/515            0           0     0     644     84440     `
+/537            0           0     0     644     57888     `
+/554            0           0     0     644     43288     `
+/567            0           0     0     644     121488    `
+/586            0           0     0     644     35984     `
+/604            0           0     0     644     169376    `
+/615            0           0     0     644     56704     `
+/637            0           0     0     644     47368     `

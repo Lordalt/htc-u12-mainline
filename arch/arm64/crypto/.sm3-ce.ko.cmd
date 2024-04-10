@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/crypto/sm3-ce.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o arch/arm64/crypto/sm3-ce.ko arch/arm64/crypto/sm3-ce.o arch/arm64/crypto/sm3-ce.mod.o

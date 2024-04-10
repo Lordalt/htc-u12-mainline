@@ -1,0 +1,5 @@
+drivers/input/keyboard/adc-keys.o
+drivers/input/keyboard/gpio_keys_polled.o
+drivers/input/keyboard/imx_sc_key.o
+drivers/input/keyboard/mtk-pmic-keys.o
+drivers/input/keyboard/snvs_pwrkey.o

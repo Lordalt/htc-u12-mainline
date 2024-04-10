@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/ti/pruss.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/soc/ti/pruss.ko drivers/soc/ti/pruss.o drivers/soc/ti/pruss.mod.o

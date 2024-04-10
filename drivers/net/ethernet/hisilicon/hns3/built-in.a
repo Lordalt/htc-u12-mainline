@@ -1,0 +1,34 @@
+!<thin>
+//                                              340       `
+hnae3.o/
+hns3_enet.o/
+hns3_ethtool.o/
+hns3_debugfs.o/
+hns3pf/hclge_main.o/
+hns3pf/hclge_mdio.o/
+hns3pf/hclge_tm.o/
+hns3pf/hclge_regs.o/
+hns3pf/hclge_mbx.o/
+hns3pf/hclge_err.o/
+hns3pf/hclge_debugfs.o/
+hns3pf/hclge_ptp.o/
+hns3pf/hclge_devlink.o/
+hns3_common/hclge_comm_cmd.o/
+hns3_common/hclge_comm_rss.o/
+hns3_common/hclge_comm_tqp_stats.o/
+/0              0           0     0     644     53944     `
+/9              0           0     0     644     445664    `
+/22             0           0     0     644     142776    `
+/38             0           0     0     644     99712     `
+/54             0           0     0     644     788224    `
+/75             0           0     0     644     43696     `
+/96             0           0     0     644     110016    `
+/115            0           0     0     644     60144     `
+/136            0           0     0     644     102600    `
+/156            0           0     0     644     149600    `
+/176            0           0     0     644     201312    `
+/200            0           0     0     644     94680     `
+/220            0           0     0     644     25400     `
+/244            0           0     0     644     75816     `
+/274            0           0     0     644     38336     `
+/304            0           0     0     644     23552     `

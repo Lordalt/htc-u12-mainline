@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/ti/built-in.a := rm -f drivers/pmdomain/ti/built-in.a;  printf "drivers/pmdomain/ti/%s " ti_sci_pm_domains.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/ti/built-in.a

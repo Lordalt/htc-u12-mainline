@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/tps6594-i2c.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mfd/tps6594-i2c.ko drivers/mfd/tps6594-i2c.o drivers/mfd/tps6594-i2c.mod.o

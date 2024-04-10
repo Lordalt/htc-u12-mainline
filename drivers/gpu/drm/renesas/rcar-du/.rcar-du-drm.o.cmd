@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/renesas/rcar-du/rcar-du-drm.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/renesas/rcar-du/rcar-du-drm.o @drivers/gpu/drm/renesas/rcar-du/rcar-du-drm.mod 

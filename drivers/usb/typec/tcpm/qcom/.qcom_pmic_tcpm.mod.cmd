@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/typec/tcpm/qcom/qcom_pmic_tcpm.mod := printf '%s\n'   qcom_pmic_typec.o qcom_pmic_typec_port.o qcom_pmic_typec_pdphy.o | awk '!x[$$0]++ { print("drivers/usb/typec/tcpm/qcom/"$$0) }' > drivers/usb/typec/tcpm/qcom/qcom_pmic_tcpm.mod

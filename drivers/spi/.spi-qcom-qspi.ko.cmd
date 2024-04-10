@@ -1,0 +1,1 @@
+savedcmd_drivers/spi/spi-qcom-qspi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-qcom-qspi.ko drivers/spi/spi-qcom-qspi.o drivers/spi/spi-qcom-qspi.mod.o

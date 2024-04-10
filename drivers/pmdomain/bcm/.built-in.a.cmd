@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/bcm/built-in.a := rm -f drivers/pmdomain/bcm/built-in.a;  printf "drivers/pmdomain/bcm/%s " bcm-pmb.o bcm2835-power.o raspberrypi-power.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/bcm/built-in.a

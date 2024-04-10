@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/xilinx/built-in.a := rm -f drivers/pmdomain/xilinx/built-in.a;  printf "drivers/pmdomain/xilinx/%s " zynqmp-pm-domains.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/xilinx/built-in.a

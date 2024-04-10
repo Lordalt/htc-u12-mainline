@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/platform/meson/ao-cec-g12a.mod := printf '%s\n'   ao-cec-g12a.o | awk '!x[$$0]++ { print("drivers/media/cec/platform/meson/"$$0) }' > drivers/media/cec/platform/meson/ao-cec-g12a.mod

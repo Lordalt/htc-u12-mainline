@@ -1,0 +1,2 @@
+drivers/gpu/drm/mxsfb/mxsfb.o
+drivers/gpu/drm/mxsfb/imx-lcdif.o

@@ -1,0 +1,16 @@
+!<thin>
+//                                              138       `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+industrialio-buffer.o/
+industrialio-trigger.o/
+adc/exynos_adc.o/
+adc/meson_saradc.o/
+/0              0           0     0     644     145176    `
+/21             0           0     0     644     71912     `
+/43             0           0     0     644     87400     `
+/53             0           0     0     644     143456    `
+/76             0           0     0     644     82968     `
+/100            0           0     0     644     101008    `
+/118            0           0     0     644     129096    `

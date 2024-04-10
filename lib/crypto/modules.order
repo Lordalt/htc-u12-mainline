@@ -1,0 +1,4 @@
+lib/crypto/libchacha.o
+lib/crypto/libarc4.o
+lib/crypto/libcurve25519-generic.o
+lib/crypto/libdes.o

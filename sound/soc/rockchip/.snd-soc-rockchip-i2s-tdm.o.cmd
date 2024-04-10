@@ -1,0 +1,1 @@
+savedcmd_sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.o @sound/soc/rockchip/snd-soc-rockchip-i2s-tdm.mod 

@@ -1,0 +1,8 @@
+drivers/media/platform/mediatek/jpeg/mtk_jpeg.o
+drivers/media/platform/mediatek/jpeg/mtk-jpeg-enc-hw.o
+drivers/media/platform/mediatek/jpeg/mtk-jpeg-dec-hw.o
+drivers/media/platform/mediatek/vcodec/common/mtk-vcodec-common.o
+drivers/media/platform/mediatek/vcodec/common/mtk-vcodec-dbgfs.o
+drivers/media/platform/mediatek/vcodec/encoder/mtk-vcodec-enc.o
+drivers/media/platform/mediatek/vcodec/decoder/mtk-vcodec-dec.o
+drivers/media/platform/mediatek/vcodec/decoder/mtk-vcodec-dec-hw.o

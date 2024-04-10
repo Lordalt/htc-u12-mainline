@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/nuvoton/built-in.a := rm -f drivers/clk/nuvoton/built-in.a;  printf "drivers/clk/nuvoton/%s " clk-ma35d1.o clk-ma35d1-divider.o clk-ma35d1-pll.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/nuvoton/built-in.a

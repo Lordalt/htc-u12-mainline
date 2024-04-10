@@ -1,0 +1,4 @@
+drivers/ufs/host/cdns-pltfrm.o
+drivers/ufs/host/ufs-qcom.o
+drivers/ufs/host/ufs-renesas.o
+drivers/ufs/host/ti-j721e-ufs.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/meson/vdec/meson-vdec.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/staging/media/meson/vdec/meson-vdec.o @drivers/staging/media/meson/vdec/meson-vdec.mod 

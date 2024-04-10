@@ -1,0 +1,12 @@
+stm32mp257f-ev1.o: arch/arm64/boot/dts/st/stm32mp257f-ev1.dts \
+ scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h \
+ arch/arm64/boot/dts/st/stm32mp257.dtsi \
+ arch/arm64/boot/dts/st/stm32mp255.dtsi \
+ arch/arm64/boot/dts/st/stm32mp253.dtsi \
+ arch/arm64/boot/dts/st/stm32mp251.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+ scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+ arch/arm64/boot/dts/st/stm32mp25xf.dtsi \
+ arch/arm64/boot/dts/st/stm32mp25-pinctrl.dtsi \
+ scripts/dtc/include-prefixes/dt-bindings/pinctrl/stm32-pinfunc.h \
+ arch/arm64/boot/dts/st/stm32mp25xxai-pinctrl.dtsi

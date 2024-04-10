@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/g_mass_storage.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/gadget/legacy/g_mass_storage.o @drivers/usb/gadget/legacy/g_mass_storage.mod 

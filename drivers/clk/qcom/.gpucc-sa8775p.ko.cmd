@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/qcom/gpucc-sa8775p.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/gpucc-sa8775p.ko drivers/clk/qcom/gpucc-sa8775p.o drivers/clk/qcom/gpucc-sa8775p.mod.o

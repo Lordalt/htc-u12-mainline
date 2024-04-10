@@ -1,0 +1,1 @@
+savedcmd_drivers/nvmem/layouts/sl28vpd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/nvmem/layouts/sl28vpd.ko drivers/nvmem/layouts/sl28vpd.o drivers/nvmem/layouts/sl28vpd.mod.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/apple/built-in.a := rm -f drivers/pmdomain/apple/built-in.a;  printf "drivers/pmdomain/apple/%s " pmgr-pwrstate.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/apple/built-in.a

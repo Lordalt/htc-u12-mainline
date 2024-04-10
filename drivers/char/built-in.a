@@ -1,0 +1,81 @@
+!<thin>
+//                                              788       `
+mem.o/
+random.o/
+misc.o/
+virtio_console.o/
+hw_random/core.o/
+hw_random/exynos-trng.o/
+hw_random/omap-rng.o/
+hw_random/virtio-rng.o/
+hw_random/hisi-rng.o/
+hw_random/histb-rng.o/
+hw_random/bcm2835-rng.o/
+hw_random/iproc-rng200.o/
+hw_random/xgene-rng.o/
+hw_random/stm32-rng.o/
+hw_random/meson-rng.o/
+hw_random/cavium-rng.o/
+hw_random/cavium-rng-vf.o/
+hw_random/mtk-rng.o/
+hw_random/optee-rng.o/
+hw_random/npcm-rng.o/
+hw_random/arm_smccc_trng.o/
+hw_random/cn10k-rng.o/
+tpm/tpm-chip.o/
+tpm/tpm-dev-common.o/
+tpm/tpm-dev.o/
+tpm/tpm-interface.o/
+tpm/tpm1-cmd.o/
+tpm/tpm2-cmd.o/
+tpm/tpmrm-dev.o/
+tpm/tpm2-space.o/
+tpm/tpm-sysfs.o/
+tpm/eventlog/common.o/
+tpm/eventlog/tpm1.o/
+tpm/eventlog/tpm2.o/
+tpm/tpm_ppi.o/
+tpm/eventlog/acpi.o/
+tpm/eventlog/efi.o/
+tpm/eventlog/of.o/
+tpm/tpm_i2c_infineon.o/
+
+/0              0           0     0     644     63784     `
+/7              0           0     0     644     183232    `
+/17             0           0     0     644     42920     `
+/25             0           0     0     644     194424    `
+/43             0           0     0     644     98640     `
+/61             0           0     0     644     49576     `
+/86             0           0     0     644     59824     `
+/108            0           0     0     644     43768     `
+/132            0           0     0     644     31240     `
+/154            0           0     0     644     37896     `
+/177            0           0     0     644     37632     `
+/202            0           0     0     644     47472     `
+/228            0           0     0     644     54712     `
+/251            0           0     0     644     71016     `
+/274            0           0     0     644     33528     `
+/297            0           0     0     644     33568     `
+/321            0           0     0     644     42512     `
+/348            0           0     0     644     39256     `
+/369            0           0     0     644     32312     `
+/392            0           0     0     644     39480     `
+/414            0           0     0     644     27976     `
+/442            0           0     0     644     41344     `
+/465            0           0     0     644     56840     `
+/481            0           0     0     644     52160     `
+/503            0           0     0     644     36352     `
+/518            0           0     0     644     62128     `
+/539            0           0     0     644     58936     `
+/555            0           0     0     644     75088     `
+/571            0           0     0     644     29464     `
+/588            0           0     0     644     38848     `
+/606            0           0     0     644     83712     `
+/623            0           0     0     644     19392     `
+/646            0           0     0     644     20728     `
+/667            0           0     0     644     17944     `
+/688            0           0     0     644     44680     `
+/703            0           0     0     644     12544     `
+/724            0           0     0     644     17016     `
+/744            0           0     0     644     15200     `
+/763            0           0     0     644     65480     `

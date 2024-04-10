@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-lpass-wsa-macro.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/codecs/snd-soc-lpass-wsa-macro.o @sound/soc/codecs/snd-soc-lpass-wsa-macro.mod 

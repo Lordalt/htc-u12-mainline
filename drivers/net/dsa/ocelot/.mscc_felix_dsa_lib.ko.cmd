@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/ocelot/mscc_felix_dsa_lib.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/ocelot/mscc_felix_dsa_lib.ko drivers/net/dsa/ocelot/mscc_felix_dsa_lib.o drivers/net/dsa/ocelot/mscc_felix_dsa_lib.mod.o

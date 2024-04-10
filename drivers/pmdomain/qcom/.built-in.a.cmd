@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/qcom/built-in.a := rm -f drivers/pmdomain/qcom/built-in.a;  printf "drivers/pmdomain/qcom/%s " cpr.o rpmpd.o rpmhpd.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/qcom/built-in.a

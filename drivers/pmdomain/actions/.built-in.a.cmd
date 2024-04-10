@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/actions/built-in.a := rm -f drivers/pmdomain/actions/built-in.a;  printf "drivers/pmdomain/actions/%s " owl-sps-helper.o owl-sps.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/actions/built-in.a

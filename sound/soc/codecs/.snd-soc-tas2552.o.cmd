@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-tas2552.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/codecs/snd-soc-tas2552.o @sound/soc/codecs/snd-soc-tas2552.mod 

@@ -1,0 +1,12 @@
+!<thin>
+//                                              124       `
+pinctrl-uniphier-core.o/
+pinctrl-uniphier-ld11.o/
+pinctrl-uniphier-ld20.o/
+pinctrl-uniphier-pxs3.o/
+pinctrl-uniphier-nx1.o/
+/0              0           0     0     644     61576     `
+/25             0           0     0     644     56368     `
+/50             0           0     0     644     66856     `
+/75             0           0     0     644     63752     `
+/100            0           0     0     644     42904     `

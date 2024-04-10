@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/media/meson/vdec/meson-vdec.mod := printf '%s\n'   esparser.o vdec.o vdec_helpers.o vdec_platform.o vdec_1.o vdec_hevc.o codec_mpeg12.o codec_h264.o codec_hevc_common.o codec_vp9.o | awk '!x[$$0]++ { print("drivers/staging/media/meson/vdec/"$$0) }' > drivers/staging/media/meson/vdec/meson-vdec.mod

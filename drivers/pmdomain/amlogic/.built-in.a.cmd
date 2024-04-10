@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/amlogic/built-in.a := rm -f drivers/pmdomain/amlogic/built-in.a;  printf "drivers/pmdomain/amlogic/%s " meson-gx-pwrc-vpu.o meson-ee-pwrc.o meson-secure-pwrc.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/amlogic/built-in.a

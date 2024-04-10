@@ -1,0 +1,13 @@
+drivers/remoteproc/mtk_scp.o
+drivers/remoteproc/mtk_scp_ipi.o
+drivers/remoteproc/pru_rproc.o
+drivers/remoteproc/qcom_pil_info.o
+drivers/remoteproc/qcom_common.o
+drivers/remoteproc/qcom_q6v5.o
+drivers/remoteproc/qcom_q6v5_adsp.o
+drivers/remoteproc/qcom_q6v5_mss.o
+drivers/remoteproc/qcom_q6v5_pas.o
+drivers/remoteproc/qcom_sysmon.o
+drivers/remoteproc/qcom_wcnss_pil.o
+drivers/remoteproc/ti_k3_dsp_remoteproc.o
+drivers/remoteproc/ti_k3_r5_remoteproc.o

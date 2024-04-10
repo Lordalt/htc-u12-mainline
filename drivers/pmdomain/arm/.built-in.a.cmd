@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/arm/built-in.a := rm -f drivers/pmdomain/arm/built-in.a;  printf "drivers/pmdomain/arm/%s " scmi_perf_domain.o scmi_pm_domain.o | xargs aarch64-linux-gnu-ar cDPrST drivers/pmdomain/arm/built-in.a

@@ -1,0 +1,354 @@
+# 0 "arch/arm64/boot/dts/renesas/r9a08g045s33-smarc.dts"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "arch/arm64/boot/dts/renesas/r9a08g045s33-smarc.dts"
+
+
+
+
+
+
+
+/dts-v1/;
+
+# 1 "arch/arm64/boot/dts/renesas/r9a08g045s33.dtsi" 1
+
+
+
+
+
+
+
+/dts-v1/;
+
+# 1 "arch/arm64/boot/dts/renesas/r9a08g045.dtsi" 1
+
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 9 "arch/arm64/boot/dts/renesas/r9a08g045.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/r9a08g045-cpg.h" 1
+
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/clock/renesas-cpg-mssr.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/clock/r9a08g045-cpg.h" 2
+# 10 "arch/arm64/boot/dts/renesas/r9a08g045.dtsi" 2
+
+/ {
+ compatible = "renesas,r9a08g045";
+ #address-cells = <2>;
+ #size-cells = <2>;
+
+ cpus {
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  cpu0: cpu@0 {
+   compatible = "arm,cortex-a55";
+   reg = <0>;
+   device_type = "cpu";
+   #cooling-cells = <2>;
+   next-level-cache = <&L3_CA55>;
+   enable-method = "psci";
+   clocks = <&cpg 0 0>;
+  };
+
+  L3_CA55: cache-controller-0 {
+   compatible = "cache";
+   cache-level = <3>;
+   cache-unified;
+   cache-size = <0x40000>;
+  };
+ };
+
+ extal_clk: extal-clk {
+  compatible = "fixed-clock";
+  #clock-cells = <0>;
+
+  clock-frequency = <0>;
+ };
+
+ soc: soc {
+  compatible = "simple-bus";
+  interrupt-parent = <&gic>;
+  #address-cells = <2>;
+  #size-cells = <2>;
+  ranges;
+
+  scif0: serial@1004b800 {
+   compatible = "renesas,scif-r9a08g045", "renesas,scif-r9a07g044";
+   reg = <0 0x1004b800 0 0x400>;
+   interrupts = <0 320 4>,
+         <0 322 4>,
+         <0 323 4>,
+         <0 321 4>,
+         <0 324 4>,
+         <0 324 4>;
+   interrupt-names = "eri", "rxi", "txi",
+       "bri", "dri", "tei";
+   clocks = <&cpg 1 79>;
+   clock-names = "fck";
+   power-domains = <&cpg>;
+   resets = <&cpg 59>;
+   status = "disabled";
+  };
+
+  cpg: clock-controller@11010000 {
+   compatible = "renesas,r9a08g045-cpg";
+   reg = <0 0x11010000 0 0x10000>;
+   clocks = <&extal_clk>;
+   clock-names = "extal";
+   #clock-cells = <2>;
+   #reset-cells = <1>;
+   #power-domain-cells = <0>;
+  };
+
+  sysc: system-controller@11020000 {
+   compatible = "renesas,r9a08g045-sysc";
+   reg = <0 0x11020000 0 0x10000>;
+   interrupts = <0 39 4>,
+         <0 40 4>,
+         <0 41 4>,
+         <0 42 4>;
+   interrupt-names = "lpm_int", "ca55stbydone_int",
+       "cm33stbyr_int", "ca55_deny";
+   status = "disabled";
+  };
+
+  pinctrl: pinctrl@11030000 {
+   compatible = "renesas,r9a08g045-pinctrl";
+   reg = <0 0x11030000 0 0x10000>;
+   gpio-controller;
+   #gpio-cells = <2>;
+   interrupt-controller;
+   #interrupt-cells = <2>;
+   gpio-ranges = <&pinctrl 0 0 152>;
+   clocks = <&cpg 1 95>;
+   power-domains = <&cpg>;
+   resets = <&cpg 75>,
+     <&cpg 76>,
+     <&cpg 77>;
+  };
+
+  sdhi0: mmc@11c00000 {
+   compatible = "renesas,sdhi-r9a08g045", "renesas,rcar-gen3-sdhi";
+   reg = <0x0 0x11c00000 0 0x10000>;
+   interrupts = <0 88 4>,
+         <0 89 4>;
+   clocks = <&cpg 1 44>,
+     <&cpg 1 46>,
+     <&cpg 1 45>,
+     <&cpg 1 47>;
+   clock-names = "core", "clkh", "cd", "aclk";
+   resets = <&cpg 41>;
+   power-domains = <&cpg>;
+   status = "disabled";
+  };
+
+  sdhi1: mmc@11c10000 {
+   compatible = "renesas,sdhi-r9a08g045", "renesas,rcar-gen3-sdhi";
+   reg = <0x0 0x11c10000 0 0x10000>;
+   interrupts = <0 90 4>,
+         <0 91 4>;
+   clocks = <&cpg 1 48>,
+     <&cpg 1 50>,
+     <&cpg 1 49>,
+     <&cpg 1 51>;
+   clock-names = "core", "clkh", "cd", "aclk";
+   resets = <&cpg 42>;
+   power-domains = <&cpg>;
+   status = "disabled";
+  };
+
+  sdhi2: mmc@11c20000 {
+   compatible = "renesas,sdhi-r9a08g045", "renesas,rcar-gen3-sdhi";
+   reg = <0x0 0x11c20000 0 0x10000>;
+   interrupts = <0 92 4>,
+         <0 93 4>;
+   clocks = <&cpg 1 52>,
+     <&cpg 1 54>,
+     <&cpg 1 53>,
+     <&cpg 1 55>;
+   clock-names = "core", "clkh", "cd", "aclk";
+   resets = <&cpg 43>;
+   power-domains = <&cpg>;
+   status = "disabled";
+  };
+
+  gic: interrupt-controller@12400000 {
+   compatible = "arm,gic-v3";
+   #interrupt-cells = <3>;
+   #address-cells = <0>;
+   interrupt-controller;
+   reg = <0x0 0x12400000 0 0x40000>,
+         <0x0 0x12440000 0 0x60000>;
+   interrupts = <1 9 8>;
+  };
+ };
+
+ timer {
+  compatible = "arm,armv8-timer";
+  interrupts-extended = <&gic 1 13 8>,
+          <&gic 1 14 8>,
+          <&gic 1 11 8>,
+          <&gic 1 10 8>;
+ };
+};
+# 11 "arch/arm64/boot/dts/renesas/r9a08g045s33.dtsi" 2
+
+/ {
+ compatible = "renesas,r9a08g045s33", "renesas,r9a08g045";
+};
+# 11 "arch/arm64/boot/dts/renesas/r9a08g045s33-smarc.dts" 2
+# 1 "arch/arm64/boot/dts/renesas/rzg3s-smarc-som.dtsi" 1
+
+
+
+
+
+
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 9 "arch/arm64/boot/dts/renesas/rzg3s-smarc-som.dtsi" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/rzg2l-pinctrl.h" 1
+# 10 "arch/arm64/boot/dts/renesas/rzg3s-smarc-som.dtsi" 2
+# 19 "arch/arm64/boot/dts/renesas/rzg3s-smarc-som.dtsi"
+/ {
+ compatible = "renesas,rzg3s-smarcm", "renesas,r9a08g045s33", "renesas,r9a08g045";
+
+ aliases {
+  mmc0 = &sdhi0;
+ };
+
+ chosen {
+  bootargs = "ignore_loglevel";
+  stdout-path = "serial0:115200n8";
+ };
+
+ memory@48000000 {
+  device_type = "memory";
+
+  reg = <0x0 0x48000000 0x0 0x38000000>;
+ };
+
+ vcc_sdhi0: regulator0 {
+  compatible = "regulator-fixed";
+  regulator-name = "SDHI0 Vcc";
+  regulator-min-microvolt = <3300000>;
+  regulator-max-microvolt = <3300000>;
+  gpios = <&pinctrl ((2) * 8 + (1)) 0>;
+  enable-active-high;
+ };
+
+
+ vccq_sdhi0: regulator1 {
+  compatible = "regulator-gpio";
+  regulator-name = "SDHI0 VccQ";
+  regulator-min-microvolt = <1800000>;
+  regulator-max-microvolt = <3300000>;
+  gpios = <&pinctrl ((2) * 8 + (2)) 0>;
+  gpios-states = <1>;
+  states = <3300000 1>, <1800000 0>;
+ };
+# 66 "arch/arm64/boot/dts/renesas/rzg3s-smarc-som.dtsi"
+};
+
+&extal_clk {
+ clock-frequency = <24000000>;
+};
+
+
+
+&sdhi0 {
+ pinctrl-0 = <&sdhi0_pins>;
+ pinctrl-1 = <&sdhi0_uhs_pins>;
+ pinctrl-names = "default", "state_uhs";
+ vmmc-supply = <&vcc_sdhi0>;
+ vqmmc-supply = <&vccq_sdhi0>;
+ bus-width = <4>;
+ sd-uhs-sdr50;
+ sd-uhs-sdr104;
+ max-frequency = <125000000>;
+ status = "okay";
+};
+# 103 "arch/arm64/boot/dts/renesas/rzg3s-smarc-som.dtsi"
+&pinctrl {
+ sdhi0_pins: sd0 {
+  data {
+   pins = "SD0_DATA0", "SD0_DATA1", "SD0_DATA2", "SD0_DATA3";
+   power-source = <3300>;
+  };
+
+  ctrl {
+   pins = "SD0_CLK", "SD0_CMD";
+   power-source = <3300>;
+  };
+
+  cd {
+   pinmux = <((0) * 8 + (0) | ((1) << 16))>;
+  };
+ };
+
+ sdhi0_uhs_pins: sd0-uhs {
+  data {
+   pins = "SD0_DATA0", "SD0_DATA1", "SD0_DATA2", "SD0_DATA3";
+   power-source = <1800>;
+  };
+
+  ctrl {
+   pins = "SD0_CLK", "SD0_CMD";
+   power-source = <1800>;
+  };
+
+  cd {
+   pinmux = <((0) * 8 + (0) | ((1) << 16))>;
+  };
+ };
+
+ sdhi0_emmc_pins: sd0-emmc {
+  pins = "SD0_DATA0", "SD0_DATA1", "SD0_DATA2", "SD0_DATA3",
+         "SD0_DATA4", "SD0_DATA5", "SD0_DATA6", "SD0_DATA7",
+         "SD0_CLK", "SD0_CMD", "SD0_RST#";
+  power-source = <1800>;
+ };
+};
+# 12 "arch/arm64/boot/dts/renesas/r9a08g045s33-smarc.dts" 2
+# 1 "arch/arm64/boot/dts/renesas/rzg3s-smarc.dtsi" 1
+# 11 "arch/arm64/boot/dts/renesas/rzg3s-smarc.dtsi"
+/ {
+ aliases {
+  serial0 = &scif0;
+ };
+};
+
+&pinctrl {
+ scif0_pins: scif0 {
+  pinmux = <((6) * 8 + (3) | ((1) << 16))>,
+    <((6) * 8 + (4) | ((1) << 16))>;
+ };
+};
+
+&scif0 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&scif0_pins>;
+ status = "okay";
+};
+# 13 "arch/arm64/boot/dts/renesas/r9a08g045s33-smarc.dts" 2
+
+/ {
+ model = "Renesas SMARC EVK version 2 based on r9a08g045s33";
+ compatible = "renesas,smarc2-evk", "renesas,rzg3s-smarcm",
+       "renesas,r9a08g045s33", "renesas,r9a08g045";
+};

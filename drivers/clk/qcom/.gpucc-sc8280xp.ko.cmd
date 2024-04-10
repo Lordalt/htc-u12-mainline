@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/qcom/gpucc-sc8280xp.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/clk/qcom/gpucc-sc8280xp.ko drivers/clk/qcom/gpucc-sc8280xp.o drivers/clk/qcom/gpucc-sc8280xp.mod.o

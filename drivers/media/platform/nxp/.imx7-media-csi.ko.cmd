@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/nxp/imx7-media-csi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/nxp/imx7-media-csi.ko drivers/media/platform/nxp/imx7-media-csi.o drivers/media/platform/nxp/imx7-media-csi.mod.o

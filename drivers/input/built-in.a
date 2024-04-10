@@ -1,0 +1,55 @@
+!<thin>
+//                                              450       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+touchscreen.o/
+ff-memless.o/
+matrix-keymap.o/
+vivaldi-fmap.o/
+input-leds.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/cros_ec_keyb.o/
+keyboard/gpio_keys.o/
+mouse/psmouse-base.o/
+mouse/synaptics.o/
+mouse/focaltech.o/
+mouse/alps.o/
+mouse/byd.o/
+mouse/logips2pp.o/
+mouse/trackpoint.o/
+mouse/cypress_ps2.o/
+mouse/psmouse-smbus.o/
+misc/hisi_powerkey.o/
+misc/pm8941-pwrkey.o/
+misc/xen-kbdfront.o/
+
+/0              0           0     0     644     205312    `
+/9              0           0     0     644     36144     `
+/25             0           0     0     644     42408     `
+/37             0           0     0     644     36832     `
+/53             0           0     0     644     33888     `
+/64             0           0     0     644     31152     `
+/79             0           0     0     644     56192     `
+/93             0           0     0     644     29624     `
+/110            0           0     0     644     18408     `
+/126            0           0     0     644     35528     `
+/140            0           0     0     644     138576    `
+/149            0           0     0     644     136392    `
+/167            0           0     0     644     66336     `
+/192            0           0     0     644     88672     `
+/214            0           0     0     644     135824    `
+/236            0           0     0     644     115064    `
+/255            0           0     0     644     37608     `
+/274            0           0     0     644     141280    `
+/288            0           0     0     644     24200     `
+/301            0           0     0     644     34344     `
+/320            0           0     0     644     53024     `
+/340            0           0     0     644     47656     `
+/361            0           0     0     644     54184     `
+/384            0           0     0     644     29872     `
+/406            0           0     0     644     47064     `
+/428            0           0     0     644     46160     `

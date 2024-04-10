@@ -1,0 +1,1 @@
+savedcmd_sound/pci/hda/snd-hda-codec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/pci/hda/snd-hda-codec.ko sound/pci/hda/snd-hda-codec.o sound/pci/hda/snd-hda-codec.mod.o

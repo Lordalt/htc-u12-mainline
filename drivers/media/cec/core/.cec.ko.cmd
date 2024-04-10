@@ -1,0 +1,1 @@
+savedcmd_drivers/media/cec/core/cec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/cec/core/cec.ko drivers/media/cec/core/cec.o drivers/media/cec/core/cec.mod.o

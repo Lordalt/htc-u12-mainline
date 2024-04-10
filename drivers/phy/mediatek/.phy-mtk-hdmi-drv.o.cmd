@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/mediatek/phy-mtk-hdmi-drv.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/phy/mediatek/phy-mtk-hdmi-drv.o @drivers/phy/mediatek/phy-mtk-hdmi-drv.mod 

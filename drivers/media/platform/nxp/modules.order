@@ -1,0 +1,3 @@
+drivers/media/platform/nxp/imx8-isi/imx8-isi.o
+drivers/media/platform/nxp/imx7-media-csi.o
+drivers/media/platform/nxp/imx-mipi-csis.o

@@ -1,0 +1,1 @@
+savedcmd_sound/soc/sunxi/sun4i-spdif.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/sunxi/sun4i-spdif.ko sound/soc/sunxi/sun4i-spdif.o sound/soc/sunxi/sun4i-spdif.mod.o

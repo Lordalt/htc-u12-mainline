@@ -1,0 +1,30 @@
+!<thin>
+//                                              234       `
+qbman/bman_ccsr.o/
+qbman/qman_ccsr.o/
+qbman/bman_portal.o/
+qbman/qman_portal.o/
+qbman/bman.o/
+qbman/qman.o/
+qbman/dpaa_sys.o/
+rcpm.o/
+guts.o/
+dpio/dpio.o/
+dpio/qbman-portal.o/
+dpio/dpio-service.o/
+dpio/dpio-driver.o/
+dpaa2-console.o/
+/0              0           0     0     644     46840     `
+/19             0           0     0     644     75832     `
+/38             0           0     0     644     58288     `
+/59             0           0     0     644     63296     `
+/80             0           0     0     644     77992     `
+/94             0           0     0     644     249608    `
+/108            0           0     0     644     10792     `
+/126            0           0     0     644     44256     `
+/134            0           0     0     644     39952     `
+/142            0           0     0     644     15576     `
+/155            0           0     0     644     110088    `
+/176            0           0     0     644     101864    `
+/197            0           0     0     644     52264     `
+/217            0           0     0     644     50056     `

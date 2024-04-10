@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/nxp/modules.order := {   cat drivers/media/platform/nxp/dw100/modules.order;   cat drivers/media/platform/nxp/imx-jpeg/modules.order;   cat drivers/media/platform/nxp/imx8-isi/modules.order;   echo drivers/media/platform/nxp/imx7-media-csi.o;   echo drivers/media/platform/nxp/imx-mipi-csis.o; :; } > drivers/media/platform/nxp/modules.order

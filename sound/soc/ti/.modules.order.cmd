@@ -1,0 +1,1 @@
+savedcmd_sound/soc/ti/modules.order := {   echo sound/soc/ti/snd-soc-ti-edma.o;   echo sound/soc/ti/snd-soc-ti-sdma.o;   echo sound/soc/ti/snd-soc-ti-udma.o;   echo sound/soc/ti/snd-soc-davinci-mcasp.o;   echo sound/soc/ti/snd-soc-j721e-evm.o; :; } > sound/soc/ti/modules.order

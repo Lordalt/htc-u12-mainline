@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/rockchip/phy-rockchip-naneng-combphy.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/rockchip/phy-rockchip-naneng-combphy.ko drivers/phy/rockchip/phy-rockchip-naneng-combphy.o drivers/phy/rockchip/phy-rockchip-naneng-combphy.mod.o

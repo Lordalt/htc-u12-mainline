@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/common/mtk-vcodec-dbgfs.mod := printf '%s\n'   mtk_vcodec_dbgfs.o | awk '!x[$$0]++ { print("drivers/media/platform/mediatek/vcodec/common/"$$0) }' > drivers/media/platform/mediatek/vcodec/common/mtk-vcodec-dbgfs.mod

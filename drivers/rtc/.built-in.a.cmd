@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/built-in.a := rm -f drivers/rtc/built-in.a;  printf "drivers/rtc/%s " lib.o class.o interface.o nvmem.o dev.o proc.o sysfs.o rtc-armada38x.o rtc-brcmstb-waketimer.o rtc-cros-ec.o rtc-ds3232.o rtc-efi.o rtc-max77686.o rtc-pl031.o rtc-rtd119x.o rtc-s3c.o rtc-s5m.o rtc-sun6i.o rtc-tegra.o rtc-xgene.o | xargs aarch64-linux-gnu-ar cDPrST drivers/rtc/built-in.a

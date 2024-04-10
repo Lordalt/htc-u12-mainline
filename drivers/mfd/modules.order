@@ -1,0 +1,7 @@
+drivers/mfd/exynos-lpass.o
+drivers/mfd/ti_am335x_tscadc.o
+drivers/mfd/wcd934x.o
+drivers/mfd/wm8994.o
+drivers/mfd/tps6594-core.o
+drivers/mfd/tps6594-i2c.o
+drivers/mfd/khadas-mcu.o

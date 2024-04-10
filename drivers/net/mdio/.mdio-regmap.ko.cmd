@@ -1,0 +1,1 @@
+savedcmd_drivers/net/mdio/mdio-regmap.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/mdio-regmap.ko drivers/net/mdio/mdio-regmap.o drivers/net/mdio/mdio-regmap.mod.o

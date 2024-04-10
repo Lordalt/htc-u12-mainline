@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/modules.order := {   echo drivers/mfd/exynos-lpass.o;   echo drivers/mfd/ti_am335x_tscadc.o;   echo drivers/mfd/wcd934x.o;   echo drivers/mfd/wm8994.o;   echo drivers/mfd/tps6594-core.o;   echo drivers/mfd/tps6594-i2c.o;   echo drivers/mfd/khadas-mcu.o; :; } > drivers/mfd/modules.order

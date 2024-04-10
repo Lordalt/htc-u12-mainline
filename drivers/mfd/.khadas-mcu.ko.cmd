@@ -1,0 +1,1 @@
+savedcmd_drivers/mfd/khadas-mcu.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/mfd/khadas-mcu.ko drivers/mfd/khadas-mcu.o drivers/mfd/khadas-mcu.mod.o

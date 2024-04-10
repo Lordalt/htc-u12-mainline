@@ -1,0 +1,1 @@
+savedcmd_sound/soc/generic/snd-soc-simple-card-utils.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/generic/snd-soc-simple-card-utils.ko sound/soc/generic/snd-soc-simple-card-utils.o sound/soc/generic/snd-soc-simple-card-utils.mod.o

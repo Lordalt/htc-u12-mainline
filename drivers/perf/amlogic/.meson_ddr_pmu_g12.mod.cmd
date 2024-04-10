@@ -1,0 +1,1 @@
+savedcmd_drivers/perf/amlogic/meson_ddr_pmu_g12.mod := printf '%s\n'   meson_ddr_pmu_core.o meson_g12_ddr_pmu.o | awk '!x[$$0]++ { print("drivers/perf/amlogic/"$$0) }' > drivers/perf/amlogic/meson_ddr_pmu_g12.mod

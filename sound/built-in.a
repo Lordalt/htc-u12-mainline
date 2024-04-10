@@ -1,0 +1,82 @@
+!<thin>
+//                                              680       `
+sound_core.o/
+core/sound.o/
+core/init.o/
+core/memory.o/
+core/control.o/
+core/misc.o/
+core/device.o/
+core/info.o/
+core/vmaster.o/
+core/ctljack.o/
+core/jack.o/
+core/timer.o/
+core/pcm.o/
+core/pcm_native.o/
+core/pcm_lib.o/
+core/pcm_misc.o/
+core/pcm_memory.o/
+core/memalloc.o/
+core/pcm_timer.o/
+core/pcm_drm_eld.o/
+core/pcm_iec958.o/
+core/pcm_dmaengine.o/
+core/compress_offload.o/
+soc/soc-core.o/
+soc/soc-dapm.o/
+soc/soc-jack.o/
+soc/soc-utils.o/
+soc/soc-dai.o/
+soc/soc-component.o/
+soc/soc-pcm.o/
+soc/soc-devres.o/
+soc/soc-ops.o/
+soc/soc-link.o/
+soc/soc-card.o/
+soc/soc-topology.o/
+soc/soc-generic-dmaengine-pcm.o/
+soc/soc-compress.o/
+soc/apple/mca.o/
+soc/samsung/dmaengine.o/
+last.o/
+/0              0           0     0     644     22536     `
+/14             0           0     0     644     43752     `
+/28             0           0     0     644     102640    `
+/41             0           0     0     644     27984     `
+/56             0           0     0     644     242488    `
+/72             0           0     0     644     41336     `
+/85             0           0     0     644     40072     `
+/100            0           0     0     644     78832     `
+/113            0           0     0     644     44848     `
+/129            0           0     0     644     21656     `
+/145            0           0     0     644     47640     `
+/158            0           0     0     644     199872    `
+/172            0           0     0     644     117384    `
+/184            0           0     0     644     375864    `
+/203            0           0     0     644     156104    `
+/219            0           0     0     644     38192     `
+/236            0           0     0     644     53056     `
+/255            0           0     0     644     66800     `
+/272            0           0     0     644     11568     `
+/290            0           0     0     644     33272     `
+/310            0           0     0     644     30904     `
+/329            0           0     0     644     56416     `
+/351            0           0     0     644     95008     `
+/376            0           0     0     644     224280    `
+/392            0           0     0     644     262320    `
+/408            0           0     0     644     58240     `
+/424            0           0     0     644     41488     `
+/441            0           0     0     644     76824     `
+/456            0           0     0     644     126232    `
+/477            0           0     0     644     176640    `
+/492            0           0     0     644     32016     `
+/510            0           0     0     644     59056     `
+/525            0           0     0     644     34672     `
+/541            0           0     0     644     43176     `
+/557            0           0     0     644     118792    `
+/577            0           0     0     644     55000     `
+/610            0           0     0     644     59624     `
+/630            0           0     0     644     105760    `
+/647            0           0     0     644     40160     `
+/672            0           0     0     644     18576     `

@@ -1,0 +1,24 @@
+!<thin>
+//                                              194       `
+pinctrl-imx.o/
+pinctrl-scu.o/
+pinctrl-imx8mm.o/
+pinctrl-imx8mn.o/
+pinctrl-imx8mp.o/
+pinctrl-imx8mq.o/
+pinctrl-imx8qm.o/
+pinctrl-imx8qxp.o/
+pinctrl-imx8dxl.o/
+pinctrl-imx8ulp.o/
+pinctrl-imx93.o/
+/0              0           0     0     644     64784     `
+/15             0           0     0     644     25400     `
+/30             0           0     0     644     40168     `
+/48             0           0     0     644     40184     `
+/66             0           0     0     644     40112     `
+/84             0           0     0     644     40504     `
+/102            0           0     0     644     42152     `
+/120            0           0     0     644     35432     `
+/139            0           0     0     644     32736     `
+/158            0           0     0     644     37608     `
+/177            0           0     0     644     34968     `

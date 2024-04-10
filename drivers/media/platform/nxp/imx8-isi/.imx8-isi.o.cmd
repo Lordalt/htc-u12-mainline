@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/nxp/imx8-isi/imx8-isi.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/nxp/imx8-isi/imx8-isi.o @drivers/media/platform/nxp/imx8-isi/imx8-isi.mod 

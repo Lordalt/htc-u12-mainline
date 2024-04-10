@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/qualcomm/phy-qcom-usb-hs.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/phy/qualcomm/phy-qcom-usb-hs.ko drivers/phy/qualcomm/phy-qcom-usb-hs.o drivers/phy/qualcomm/phy-qcom-usb-hs.mod.o

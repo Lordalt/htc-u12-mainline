@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/qcom/pmic_glink.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/soc/qcom/pmic_glink.ko drivers/soc/qcom/pmic_glink.o drivers/soc/qcom/pmic_glink.mod.o

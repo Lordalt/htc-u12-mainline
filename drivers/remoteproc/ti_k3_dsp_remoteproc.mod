@@ -1,0 +1,1 @@
+drivers/remoteproc/ti_k3_dsp_remoteproc.o

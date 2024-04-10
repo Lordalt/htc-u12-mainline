@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/broadcom/asp2/built-in.a := rm -f drivers/net/ethernet/broadcom/asp2/built-in.a;  printf "drivers/net/ethernet/broadcom/asp2/%s " bcmasp.o bcmasp_intf.o bcmasp_ethtool.o | xargs aarch64-linux-gnu-ar cDPrST drivers/net/ethernet/broadcom/asp2/built-in.a
